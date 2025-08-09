@@ -41,6 +41,9 @@ shell-integration = "zsh"
 link-url = true
 
 # Keybinds
+keybind = ctrl+c=copy_to_clipboard
+keybind = ctrl+v=paste_from_clipboard
+
 keybind = alt+r=reload_config
 keybind = alt+x=close_surface
 keybind = alt+t=new_tab
